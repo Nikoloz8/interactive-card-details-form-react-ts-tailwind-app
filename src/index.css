@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@layer base {
+    html {
+        font-family: Space Grotesk;
+        font-size: 10px;
+    }
+}
+
+@layer components {}
+
+@layer utilities {
+
+    .div:focus-within {
+        background: linear-gradient(to right, #6348FE, #610595);
+        border-radius: 8px;
+        padding: 1px;
+    }
+
+    /* #root{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } */
+}
